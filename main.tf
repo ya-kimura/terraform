@@ -4,7 +4,7 @@ provider "aws" {
 
 terraform {
   backend "s3" {
-    bucket = "pipe-boladao"
+    bucket = "terraform-pipe"
     key    = "terraformt.state"
     region = "us-east-2"
   }
