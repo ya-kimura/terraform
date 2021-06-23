@@ -3,5 +3,5 @@ variable "hash_commit" {
 }
 
 variable "servers" {
-
+  
 }
