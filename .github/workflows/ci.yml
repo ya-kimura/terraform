@@ -34,4 +34,4 @@ jobs:
         id: validate
         run: terraform validate -no-color
         env:
-          AWS_DEFAULT_REGION: ${{ AWS_DEFAULT_REGION }}
+          AWS_DEFAULT_REGION: ${{ secrets.AWS_DEFAULT_REGION }}
